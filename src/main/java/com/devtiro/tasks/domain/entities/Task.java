@@ -34,11 +34,9 @@ public class Task {
     @Enumerated(EnumType.STRING)
     private TaskPriority priority;
 
-    @CreationTimestamp
     @Column(name = "created", updatable = false, nullable = false)
     private Instant created;
 
-    @UpdateTimestamp
     @Column(name = "updated", nullable = false)
     private Instant updated;
 
