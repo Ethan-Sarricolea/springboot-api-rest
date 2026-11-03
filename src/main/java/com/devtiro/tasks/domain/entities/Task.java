@@ -3,9 +3,6 @@ package com.devtiro.tasks.domain.entities;
 import com.devtiro.tasks.domain.TaskPriority;
 import com.devtiro.tasks.domain.TaskStatus;
 import jakarta.persistence.*;
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
-
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.Objects;
@@ -23,7 +20,7 @@ public class Task {
     @Column(name = "title", nullable = false)
     private String title;
 
-    @Column(name = "description")
+    @Column(name = "description", length = 100)
     private String description;
 
     @Column(name = "due_date")
@@ -44,6 +41,7 @@ public class Task {
     @UpdateTimestamp
     @Column(name = "updated", nullable = false)
     private Instant updated;
+
 
     public Task() {
     }
