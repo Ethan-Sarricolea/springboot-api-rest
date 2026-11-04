@@ -5,7 +5,7 @@
 Esta es un backend API Rest desarrollado para la gestión de tareas con "TaskApp" por medio del framework Spring Boot 4. Basado en la arquitectura de capas, DTOs (Data Transfer Object), mappers e inyección de dependencias explicado en los materiales de referencia:
 
 - Video guía: [How to Build Your First Spring Boot App - Devtiro](https://www.youtube.com/watch?v=M2U4_t_PSRM)
-Guía escrita "Task App V2 Documentation - GitHub": https://github.com/devtiro/devtiro-task-app/tree/main 
+- Guía escrita "Task App V2 Documentation - GitHub": https://github.com/devtiro/devtiro-task-app/tree/main 
 
 ## Ejecución
 
