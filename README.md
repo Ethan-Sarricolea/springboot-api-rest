@@ -16,7 +16,8 @@ Guía escrita "Task App V2 Documentation - GitHub": https://github.com/devtiro/d
 netstat -ano | findstr :8080
 ```
 
-    a. De estar ocupado, detener el proceso para permitir la ejecución del backend
+a. De estar ocupado, detener el proceso para permitir la ejecución del backend
+
 ```bash
 taskkill /PID <PID> /F
 ```
